@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notevy - Subjects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+    .subject-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        
+    }
+
+    .subject-icon {
+        margin-bottom: 0.75rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .subject-icon img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 9999px; /* rounded-full */
+    }
+    
+</style>
+
+</head>
+<body class="bg-[#0B0F19] text-[#E2E4E8]">
+
+    <div id="navbar-placeholder"></div>
+
+    <section class="container mx-auto px-4 py-12">
+        <header class="mb-12 text-center">
+            <h1 class="text-4xl font-bold text-[#E2E4E8] mb-4">All Subject Notes</h1>
+            <p class="text-xl text-[#A1A8C4] max-w-3xl mx-auto">Browse through our comprehensive collection of notes across various subjects.</p>
+        </header>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Subject Cards -->
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                 <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/Javascript-logo.png" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">Java Script Notes</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Notes Here</p><br><br>
+        <div class="flex justify-between space-x-3">
+            <a href="https://drive.google.com/file/d/1yJBCs3WOIz6OkWdnXvykItN_uMpWtoyf/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+            <a href="" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+        </div>
+            </div>
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                 <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/html5-logo.jpg" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">HTML Notes</h3>
+        <p class="text-[#A1A8C4] mb-4"> Download Notes Here   </p><br><br>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1mOJqtolvLe4jgvuHr6L9-MGxHPh636uK/view?usp=drive_link" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1mOJqtolvLe4jgvuHr6L9-MGxHPh636uK/view?usp=drive_link" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+               <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/css3-logo.webp" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">CSS Notes</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Notes Here</p><br><br>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1g-_Mu_63wBP-x1r6Dw9AtkyBx98mnkw9/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1g-_Mu_63wBP-x1r6Dw9AtkyBx98mnkw9/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/python-logo" alt="python Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">Python Notes</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Notes Here</p><br><br>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1zKEjWmju2TABXqVGCG_Rmv7SOUy0D44o/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1zKEjWmju2TABXqVGCG_Rmv7SOUy0D44o/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+
+            <!-------->
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/c-language-png.jpeg" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2"> C Notes</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Notes Here</p><br><br>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1uvSqboVa6Ug6-RJiQrueOOTaQ91YNH3g/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1uvSqboVa6Ug6-RJiQrueOOTaQ91YNH3g/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+
+
+            <!--------------->
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                 <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/OS_logo.png" alt="OS Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">Operating System</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Notes Here</p><br><br>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1kzRoqSyNyIFcJa4CtEgkuMkHEACRdYgG/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1kzRoqSyNyIFcJa4CtEgkuMkHEACRdYgG/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+
+
+            <!------------------->
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/DS__logo.png" alt="DS Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">Data Structure</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Notes Here</p><br><br>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1VJQ5w6c0GV4m5TWFBWgvtEEeJj7_ES6Y/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1VJQ5w6c0GV4m5TWFBWgvtEEeJj7_ES6Y/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+
+            <!------------->
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/C++_logo.png" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">Java Notes</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Notes Here</p><br><br>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1zPkOjCblI21Rxpi-thfo-fQa5myTht_B/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1zPkOjCblI21Rxpi-thfo-fQa5myTht_B/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+<!------------->
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                 <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/python_interview.png" alt="python Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">Python Interview Question</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Here</p><br>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1qi8sIofaR-HhX1hsvW3NjfYl1YtGxG8d/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1qi8sIofaR-HhX1hsvW3NjfYl1YtGxG8d/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+
+<!-------------------->
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/java_interview.png" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">Java Interview Question</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Here <br><br><br></p>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1hDAoiIb68IKxyqLmqgsl2fxaw2guX5dO/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1hDAoiIb68IKxyqLmqgsl2fxaw2guX5dO/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+<!------------------>
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+              <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/c_interview.png" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">C Interview Question</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Here <br><br><br></p>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1iOtRhpPTHuQMgxBPZOSSAh-pdIroH1ME/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1iOtRhpPTHuQMgxBPZOSSAh-pdIroH1ME/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+<!------------------>
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/OPPs_interview.png" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">OPPs Interview Question</h3>
+        <p class="text-[#A1A8C4] mb-4"> Download Here<br><br><br></p>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1DFwrVBRjCGjCFAHxziZY9nC16da-397F/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1DFwrVBRjCGjCFAHxziZY9nC16da-397F/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+<!--------------------->
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                 <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/python_cheatsheet.png" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">Python Cheatsheet</h3>
+        <p class="text-[#A1A8C4] mb-4"> Download Here<br><br><br></p>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/14T14JobaUE2XKvr9T3wR6j98JzfN19lX/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/14T14JobaUE2XKvr9T3wR6j98JzfN19lX/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+<!---------------------->
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/ML_cheatsheet.png" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">Machine Learning </h3>
+        <p class="text-[#A1A8C4] mb-4">Download Here<br><br><br></p>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1CFWqEcBaQ7Gh8aSbcpRNyP0vaoQpyr8_/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1CFWqEcBaQ7Gh8aSbcpRNyP0vaoQpyr8_/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+
+<!---------------------->
+
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/SQL_cheatsheet.png" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">SQL Cheatsheet</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Here<br><br><br></p>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1harrSKJwrTtS2TJuGDGogmVFYlCsluAf/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1harrSKJwrTtS2TJuGDGogmVFYlCsluAf/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+<!----------------------->
+            <div class="subject-card bg-[#141A2E] p-6 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:border-[#6366F1] border border-[#1E2845]">
+                 <div class="subject-icon mb-4 flex justify-center">
+            <img src="image/All_cheatsheet.png" alt="Java Icon" class="w-14 h-14 object-cover rounded-full">
+        </div>
+        
+        <h3 class="text-xl font-semibold text-[#E2E4E8] mb-2">ALL Cheatsheet</h3>
+        <p class="text-[#A1A8C4] mb-4">Download Here<br><br><br></p>
+        <div class="flex justify-between space-x-3">
+                    <a href="https://drive.google.com/file/d/1WqlN1IoVO_otbnyIBrMuN1nkwFNx0rDi/view?usp=sharing" class="flex-1 bg-[#3B82F6] hover:bg-[#2563EB] text-white py-2 px-4 rounded-lg text-center transition">View Notes</a>
+                    <a href="https://drive.google.com/file/d/1WqlN1IoVO_otbnyIBrMuN1nkwFNx0rDi/view?usp=sharing" class="flex-1 bg-[#10B981] hover:bg-[#059669] text-white py-2 px-4 rounded-lg text-center transition">Download</a>
+                </div>
+            </div>
+        </div>
+
+            <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- JS to include navbar and footer -->
+  <script>
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+      });
+
+    fetch('footer.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  </script>
+        </body>
+    </html>
