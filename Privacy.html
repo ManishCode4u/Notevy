@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Notevy.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      background-color: #000b1a; /* Darker blue background */
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .policy-container {
+      width: 95vw;
+      max-width: 1200px;
+      margin: 30px auto;
+      /* border: 0.5px solid #00aaff; */
+      border-radius: 12px;
+      padding: 25px;
+      background-color: rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 15px rgba(0, 170, 255, 0.1);
+    }
+
+    h1, h2 {
+      color: #00aaff;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #00aaff;
+    }
+
+    @media (max-width: 600px) {
+      .policy-container {
+        width: 100%;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="navbar-placeholder"></div>
+
+  <div class="policy-container">
+    <h1>Privacy Policy</h1>
+
+    <section>
+      <h2>1. Introduction</h2>
+      <p>Welcome to Notevy.in, an educational platform built for students to create, access, and manage notes and questions. We value your privacy and are fully committed to safeguarding your personal and academic information. This Privacy Policy explains how your data is collected, used, and protected.</p>
+    </section>
+
+    <section>
+      <h2>2. Information We Collect</h2>
+      <p>We collect the following information:</p>
+      <ul>
+        <li>Email address for account login.</li>
+        <li>Your notes and saved content.</li>
+        <li>Browser type and version.</li>
+        <li>IP address (for analytics and basic security).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. How We Use the Information</h2>
+      <ul>
+        <li>To manage login and account access.</li>
+        <li>To store your notes securely.</li>
+        <li>To improve our platform through usage data.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Cookies and Tracking</h2>
+      <p>We may use cookies to remember user preferences and improve site experience. We might use basic analytics tools like Google Analytics.</p>
+    </section>
+
+    <section>
+      <h2>5. Data Protection</h2>
+      <p>Notevy.in runs on HTTPS for secure access. We do not use Firebase or any cloud storage — your data is limited to basic browser storage unless otherwise mentioned.</p>
+    </section>
+
+    <section>
+      <h2>6. Third-party Services</h2>
+      <p>We may use third-party tools for analytics or UI components, but we do not share your personal notes or data with them.</p>
+    </section>
+
+    <section>
+      <h2>7. User Rights</h2>
+      <p>You can request to view, edit, or delete your stored information anytime. Contact us via email below.</p>
+    </section>
+
+    <section>
+      <h2>8. Children’s Privacy</h2>
+      <p>Notevy.in is not intended for users under 13. We do not knowingly collect personal information from children.</p>
+    </section>
+
+    <section>
+      <h2>9. Changes to the Policy</h2>
+      <p>We may update this policy occasionally. Please review it regularly to stay informed.</p>
+    </section>
+
+    <section>
+      <h2>10. Contact Information</h2>
+      <p>If you have any questions, reach out to us at <a href="mailto:support@notevy.in">support@notevy.in</a>.</p>
+    </section>
+  </div>
+<!--------Add Footer-->
+  <div id="footer-placeholder"></div>
+
+  <script>
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+      });
+
+    fetch('footer.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>
