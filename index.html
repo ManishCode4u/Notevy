@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notevy | Study smart with organized notes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!----footer ke liye -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    
+
+</head>
+
+     <div id="navbar"></div>
+    <body class="bg-darker font-sans text-gray-100">
+
+    
+    <!-- Hero Section -->
+    <section class="relative py-20 md:py-32 overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+            <div class="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-primary filter blur-3xl opacity-70"></div>
+            <div class="absolute top-3/4 right-1/4 w-56 h-56 rounded-full bg-accent filter blur-3xl opacity-70"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-12 md:mb-0">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Study smart with 
+                    <span class="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">organized notes</span>,
+                    MCQs, and mini projects
+                </h1>
+                <p class="text-lg text-gray-400 mb-8 max-w-lg">
+                    Notevy helps students access comprehensive study materials, practice questions, and project ideas - all in one place.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="Notes.html" class="btn-glow px-8 py-3 bg-primary rounded-full font-medium hover:bg-opacity-90 transition-all">
+                        Explore Notes
+                    </a>
+                    <a href="Roadmap.html" class="px-8 py-3 border border-gray-700 rounded-full font-medium hover:bg-gray-800 transition-colors">
+                        Roadmap
+                    </a>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2 relative flex justify-center">
+
+                <img src="image/Book-lover-amico.png" alt="Student studying with laptop and notebooks on desk" class="rounded-xl shadow-xl floating relative z-10">
+                <div class="absolute -bottom-6 -right-6 w-40 h-40 bg-primary rounded-xl opacity-20"></div>
+                <div class="absolute -top-6 -left-6 w-32 h-32 bg-accent rounded-xl opacity-20"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Everything You Need to Ace Your Exams</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    From comprehensive notes to practice questions and project ideas, Notevy has got you covered
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card bg-dark p-8 rounded-xl transition-all duration-300 hover:border-primary border border-gray-800">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-book-open text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">All Notes</h3>
+                    <p class="text-gray-400">
+                        Well-structured notes organized by semester and subject. Perfect for quick revision.
+                    </p>
+                    <a href="notes.html" class="inline-block mt-4 text-primary hover:underline">Explore →</a>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card bg-dark p-8 rounded-xl transition-all duration-300 hover:border-primary border border-gray-800">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-project-diagram text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Mini Projects</h3>
+                    <p class="text-gray-400">
+                        Practical project ideas with complete documentation and source files.
+                    </p>
+                    <a href="MiniProject.html" class="inline-block mt-4 text-primary hover:underline">Get Ideas →</a>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card bg-dark p-8 rounded-xl transition-all duration-300 hover:border-primary border border-gray-800">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-question-circle text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">RoadMaps </h3>
+                    <p class="text-gray-400">
+                        Practical mini project roadmaps with full docs and source files for every stage of your BTech journey.
+                    </p>
+                    <a href="Roadmap.html" class="inline-block mt-4 text-primary hover:underline">Practice Now →</a>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card bg-dark p-8 rounded-xl transition-all duration-300 hover:border-primary border border-gray-800">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-chalkboard-teacher text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Video Tutorials</h3>
+                    <p class="text-gray-400">
+                        Step-by-step guides and tutorials for difficult concepts and lab exercises.
+                    </p>
+                    <a href="tutorial.html" class="inline-block mt-4 text-primary hover:underline">Watch Now →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-gradient-to-r from-dark to-darker">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="p-6">
+                    <div class="text-4xl md:text-5xl font-bold text-primary mb-2">500+</div>
+                    <div class="text-gray-400">Notes</div>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl md:text-5xl font-bold text-accent mb-2">1K+</div>
+                    <div class="text-gray-400">MCQs</div>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl md:text-5xl font-bold text-primary mb-2">100+</div>
+                    <div class="text-gray-400">Projects</div>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl md:text-5xl font-bold text-accent mb-2">5K+</div>
+                    <div class="text-gray-400">Students</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">What Students Say</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Don't just take our word for it - hear from students who improved their grades with Notevy
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-dark p-8 rounded-xl border border-gray-800">
+                    <div class="flex items-center mb-4">
+                        <img src="image/satyampic.jpg" alt="Student portrait" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-medium">Satyam Singh</h4>
+                            <p class="text-gray-400 text-sm">Information Technology</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        "The website helped me revise all my concepts in less time. The mock tests and notes were super useful."
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-dark p-8 rounded-xl border border-gray-800">
+                    <div class="flex items-center mb-4">
+                        <img src="image/aryanpic.jpg" alt="Student portrait" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-medium">Aryan Chaurasiya</h4>
+                            <p class="text-gray-400 text-sm">Computer Applications</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        " The project ideas section is amazing. I could build my mini project easily with the help of the guide."
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-dark p-8 rounded-xl border border-gray-800">
+                    <div class="flex items-center mb-4">
+                        <img src="image/nitishopic.jpg" alt="Student portrait" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-medium">Nitish Gupta</h4>
+                            <p class="text-gray-400 text-sm">Software Engineering</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        "From MCQs to tutorials, everything is clearly organized. It made my exam preparation stress-free."
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-bl from-darker via-dark to-primary/10">
+        <div class="max-w-3xl mx-auto text-center px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to boost your grades?</h2>
+            <p class="text-lg text-gray-400 mb-8">
+                Join thousands of students who improved their exam performance with Notevy's organized resources.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="notes.html" class="btn-glow px-8 py-4 bg-primary rounded-full font-bold hover:bg-opacity-90 transition-all">
+                    Start Studying Now
+                </a>
+                <a href="contact.html" class="px-8 py-4 border border-gray-700 rounded-full font-bold hover:bg-gray-800 transition-colors">
+                    Request Materials
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!---- Add Footer -->
+    <div id="footer"></div>
+    <script src="script.js"></script>
+
+
+   
+  
+</body>
+</html>
