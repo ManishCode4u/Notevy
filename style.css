@@ -1,0 +1,23 @@
+/* Custom animations */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(108, 99, 255, 0.3);
+        }
+        
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .btn-glow {
+            box-shadow: 0 0 15px rgba(108, 99, 255, 0.5);
+        }
+        
+        .btn-glow:hover {
+            box-shadow: 0 0 25px rgba(108, 99, 255, 0.7);
+        }
+        
