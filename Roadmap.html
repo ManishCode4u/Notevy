@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f1424;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main container for page content */
+        .page-container {
+            max-width: 700px; /* यहां से width control होगी */
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        /* Card Styling */
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #444;
+        }
+
+        .card p {
+            color: #777;
+            margin-top: 8px;
+        }
+
+        /* Link Button */
+        .link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 14px;
+            text-decoration: none;
+            border-radius: 4px;
+            color: white;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .blueprint .link {
+            background-color: #9b59b6;
+        }
+
+        .blueprint .link:hover {
+            background-color: #8e44ad;
+        }
+
+        .guide .link {
+            background-color: #2ecc71;
+        }
+
+        .guide .link:hover {
+            background-color: #27ae60;
+        }
+
+        .roadmap .link {
+            background-color: #3498db;
+        }
+
+        .roadmap .link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Placeholder -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Main Content -->
+    <div class="page-container">
+        <h1>Roadmaps</h1>
+
+        <div class="card blueprint">
+            <h2>The Crack30 Blueprint</h2>
+            <p>The ultimate blueprint for tech success</p>
+            <a href="Blueprint.html" class="link">Blueprint</a>
+        </div>
+        
+        <div class="card guide">
+            <h2>Fresher Roadmap</h2>
+            <p>Complete guide for fresh graduates</p>
+            <a href="Fresher_roadmap.html" class="link">Guide</a>
+        </div>
+
+        <div class="card roadmap">
+            <h2>Second Year Roadmap</h2>
+            <p>Essential steps for second year students</p>
+            <a href="second_year_roadmap.html" class="link">Roadmap</a>
+        </div>
+
+        <div class="card roadmap">
+    <h2>Third Year Roadmap</h2>
+    <p>Essential steps for Third year students</p>
+    <a href="https://drive.google.com/file/d/12wSozslg17MLBIP4uvVc-o8Rn-58svIF/preview" 
+       class="link" target="_blank">
+       Roadmap
+    </a>
+</div>
+
+
+        <div class="card roadmap">
+            <h2>Fourth Year Roadmap</h2>
+            <p>Complete roadmap for final year students</p>
+            <a href="https://drive.google.com/file/d/19qEdp5omZhYca6ya0zvnhL-kxhqlcTKl/view?usp=sharing" class="link">Roadmap</a>
+        </div>
+
+        <div class="card roadmap">
+            <h2>Full Stack Roadmap</h2>
+            <p>Complete full stack development path</p>
+            <a href="https://drive.google.com/file/d/1EjV7_BEx-u9o6-HPoXsH8k2xtVn3gF6l/view?usp=sharing" class="link">Roadmap</a>
+        </div>
+
+        <div class="card blueprint">
+            <h2>Technical Skills Guide </h2>
+            <p>Technical Skills Guide for Non Engineering Students</p>
+            <a href="https://drive.google.com/file/d/1-FdCocbXByoqSyUoD4l7i19ztg8KLrJg/view?usp=sharing" class="link">Blueprint</a>
+        </div>
+    </div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JS for Navbar/Footer -->
+    <script>
+        fetch('navbar.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+
+        fetch('footer.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+
+</body>
+</html>
