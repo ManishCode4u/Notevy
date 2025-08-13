@@ -1,0 +1,677 @@
+<!--
+Source PDF filename: MultipleFiles/Second_year_roadmap.pdf
+Fonts substituted:
+- Original PDF likely uses a sans-serif font like Inter or Arial. Substituted with Arial, Helvetica, sans-serif for broad compatibility.
+Sections represented as placeholders:
+- No specific images or complex illustrations were identified that required placeholders. Emojis are rendered directly.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2nd Year Comeback Blueprint</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            text-align: center;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            color: #34495e;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        ol {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+
+        .note {
+            background-color: #ecf0f1;
+            border-left: 5px solid #3498db;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+
+        .pro-tip {
+            background-color: #f9f9e0;
+            border-left: 5px solid #f39c12;
+            padding: 10px 15px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+
+        /* Section Specific Styles */
+        .mission-statement {
+            text-align: center;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #e8f6f3;
+            border-radius: 5px;
+            border: 1px dashed #1abc9c;
+        }
+
+        .skill-breakdown section {
+            margin-bottom: 30px;
+        }
+
+        .skill-breakdown h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .resource-list li {
+            margin-bottom: 8px;
+        }
+
+        .weekly-routine ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .weekly-routine li {
+            background-color: #f8f8f8;
+            padding: 8px 12px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            border: 1px solid #eee;
+        }
+
+        .progress-tracking table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .progress-tracking th,
+        .progress-tracking td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .progress-tracking th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .project-list li {
+            margin-bottom: 10px;
+        }
+
+        .timeline table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .timeline th,
+        .timeline td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .timeline th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .timeline td:first-child {
+            white-space: nowrap; /* Prevent week numbers from wrapping */
+        }
+
+        .summary-section {
+            background-color: #eaf2f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border: 1px solid #d4e6f1;
+        }
+
+        .summary-section h2 {
+            border-bottom: none;
+            text-align: center;
+            color: #2980b9;
+        }
+
+        .summary-section ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .summary-section li {
+            flex-basis: 45%; /* Adjust for two columns on larger screens */
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: center;
+        }
+
+        .summary-section li .emoji {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        /* Responsive Design */
+
+        /* Mobile (≤480px) */
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            h3 {
+                font-size: 1.2em;
+            }
+
+            .summary-section li {
+                flex-basis: 100%; /* Stack items on small screens */
+            }
+
+            .timeline th,
+            .timeline td {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .timeline th {
+                text-align: center;
+                background-color: #e0e0e0;
+            }
+
+            .timeline td:before {
+                content: attr(data-label);
+                font-weight: bold;
+                display: inline-block;
+                width: 80px; /* Label width */
+                margin-right: 10px;
+            }
+        }
+
+        /* Tablet (~768px) */
+        @media (min-width: 481px) and (max-width: 1023px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.7em;
+            }
+
+            .summary-section li {
+                flex-basis: 48%; /* Two columns */
+            }
+        }
+
+        /* Desktop (≥1024px) */
+        @media (min-width: 1024px) {
+            .summary-section ul {
+                justify-content: space-between;
+            }
+
+            .summary-section li {
+                flex-basis: 23%; /* Four columns */
+            }
+        }
+    </style>
+</head>
+<body>
+
+     <!-----Add Nevbar-->
+ <div id="navbar-placeholder"></div>
+
+ 
+    <div class="container">
+        <header>
+            <h1><span class="emoji">📘</span> 2nd Year Comeback Blueprint</h1>
+            <p class="mission-statement" role="doc-subtitle">For students who feel like they "wasted" 1st year and want to catch up fast on Dev + DSA to get their first internship</p>
+            <p class="note" role="note">
+                <span class="emoji">🎯</span> <strong>Your Mission</strong><br>
+                In the next 4–6 months, you can build:
+            </p>
+            <ul>
+                <li>Solid Frontend skills (React as a must-have)</li>
+                <li>DSA foundation up to Trees</li>
+                <li>A portfolio/online presence</li>
+                <li>Your first internship application</li>
+            </ul>
+            <p class="note">
+                Remember: You're not starting from zero—focus on "smart catch-up," not "brute force."
+            </p>
+        </header>
+
+        <main>
+            <section id="context-mindset">
+                <h2>1. Context & Mindset</h2>
+                <p>You may feel regret over 1st year, but it's not irreparable. The key is strategic learning and consistent action over the next few months.</p>
+            </section>
+
+            <section id="skill-stack-breakdown" class="skill-breakdown">
+                <h2><span class="emoji">🧠</span> Skill Stack Breakdown</h2>
+
+                <section id="frontend-development">
+                    <h3>A. Frontend Development (React = Must)</h3>
+                    <h4>Core HTML/CSS/JS Refresher</h4>
+                    <ul>
+                        <li>Quickly revisit projects you built (or basics you know)</li>
+                        <li>Aim for confidence in modern CSS (Flexbox/Grid) + ES6+</li>
+                    </ul>
+                    <h4>React + Ecosystem</h4>
+                    <p>Why React? Most Indian internships + entry-level roles expect React proficiency.</p>
+                    <p><strong>Primary Resources:</strong></p>
+                    <ul class="resource-list">
+                        <li>Web Dev Simplified (YouTube): Search "WebDevSimplified React Tutorial" → follow his 2024 playlist</li>
+                        <li>Hitesh Choudhary (YouTube): "React JS Crash Course" (2023–2024 version)</li>
+                        <li>Chai aur Code (YouTube): Look for "React Projects for Beginners"</li>
+                    </ul>
+                    <p><strong>Key Topics to Cover (1–2 weeks each):</strong></p>
+                    <ol>
+                        <li>Component + Props</li>
+                        <li>State & useEffect hook</li>
+                        <li>React Router (basic routing)</li>
+                        <li>Fetching data: Axios/Fetch</li>
+                        <li>Simple state management (Context API)</li>
+                        <li>Styling libraries (Tailwind, styled-components or plain CSS modules)</li>
+                    </ol>
+                    <p><strong>Cherry-on-Top (if time permits):</strong></p>
+                    <h4>Backend Primer:</h4>
+                    <ul>
+                        <li>Node.js + Express fundamentals (follow Harkirat's "Advanced Systems" playlist)</li>
+                        <li>MongoDB basics (CRUD operations)</li>
+                    </ul>
+                    <h4>Hosting/Deployment:</h4>
+                    <ul>
+                        <li>Vercel/Netlify for Frontend</li>
+                        <li>Heroku/Render for simple Node apps</li>
+                    </ul>
+                </section>
+
+                <section id="dsa-foundation">
+                    <h3>B. DSA Foundation (Up to Trees)</h3>
+                    <p><strong>Goal:</strong> Solve 150–200 DSA problems (Easy → Medium) focusing on everything up to Trees</p>
+                    <p><strong>Resource Roadmap:</strong></p>
+                    <ul class="resource-list">
+                        <li>Striver's A2Z DSA Course (YouTube): Start from Arrays → Strings → Linked Lists → Stacks/Queues → Binary Trees</li>
+                        <li>Use his exact playlist order: Array (20 videos), String (15 videos), Linked List (10 videos), Stack/Queue (8 videos), Tree (20 videos)</li>
+                    </ul>
+                    <p><strong>Aim:</strong> Finish these playlists in 4–6 weeks</p>
+                    <p><strong>Weekly Routine (12 weeks total):</strong></p>
+                    <ul class="weekly-routine">
+                        <li>2-week sprint: Watch Striver video + solve 10–12 related problems</li>
+                    </ul>
+                    <p><strong>Maintaining Pace:</strong></p>
+                    <ul class="weekly-routine">
+                        <li>Week 1–2: Arrays (+20 problems)</li>
+                        <li>Week 3–4: Strings (+20 problems)</li>
+                        <li>Week 5–6: Linked Lists (+15 problems)</li>
+                        <li>Week 7–8: Stack/Queue/Recursion (+15 problems)</li>
+                        <li>Week 9–10: Trees (Binary Tree + BST) (+25 problems)</li>
+                        <li>Week 11–12: Extra DSA problems from past topics to hit 150–200 total</li>
+                    </ul>
+                    <h4>Progress Tracking:</h4>
+                    <p>Maintain a Google Sheet or Notion table with columns:</p>
+                    <div class="progress-tracking">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Topic</th>
+                                    <th>Resource Link</th>
+                                    <th>Problems Attempted</th>
+                                    <th>Problems Solved</th>
+                                    <th>Difficulty</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Arrays</td>
+                                    <td>Striver Array Playlist (YouTube)</td>
+                                    <td>20</td>
+                                    <td>18</td>
+                                    <td>Easy/Med</td>
+                                </tr>
+                                <tr>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                    <td>...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section id="other-actions">
+                    <h3>C. Other Must-do Actions (2nd Year)</h3>
+                    <p>These build on top of Dev + DSA. By the end of 2nd year, you want a visible footprint —projects, GitHub, LinkedIn, and a (small) public "proof" of progress.</p>
+
+                    <h4>Project Cornerstone (2–3 Projects)</h4>
+                    <p><strong>What to Build? (React as core)</strong></p>
+                    <ol class="project-list">
+                        <li>"ChatGPT-style" Project: Use a free API (e.g., OpenAI trial or any public AI demo) inside React</li>
+                        <li>Dashboard UI: Pick a public API (weather, crypto prices) + display charts (Recharts or Chart.js)</li>
+                        <li>E-commerce Mini-Clone: Homepage, product listing, filter/sort, cart UI (no backend needed if you use dummy JSON)</li>
+                    </ol>
+                    <p class="pro-tip">
+                        <strong>Pro Tip:</strong> If you're unsure what matches your comfort level, prompt ChatGPT: "I'm a 2nd year BTech student who has learned React basics. Suggest 3 beginner-to-intermediate React projects I can finish in 2 weeks, each teaching me a new concept."
+                    </p>
+                    <p><strong>Hosting:</strong> Deploy all React apps on Vercel/Netlify. Link them in your portfolio.</p>
+
+                    <h4>Public Profile & Proof</h4>
+                    <h5>GitHub:</h5>
+                    <ul>
+                        <li>Push all projects—keep clean README.md for each (screenshots, what you learned, how to run)</li>
+                        <li>Use branches for each feature to show you understand git flow</li>
+                    </ul>
+                    <h5>LinkedIn:</h5>
+                    <ul>
+                        <li>Optimize headline: "2nd Year BTech • React Dev • DSA Learner"</li>
+                        <li>Weekly posting schedule:
+                            <ul>
+                                <li>Monday: "This week's DSA wins" (e.g., "Solved 10 linked-list problems from Striver sheet")</li>
+                                <li>Thursday: "Showing my new React project: [link]" + 1 short lesson</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h4>Internship Hunt</h4>
+                    <p><strong>Where to Look:</strong></p>
+                    <ul>
+                        <li>Internshala (filter "Frontend Developer Intern")</li>
+                        <li>LinkedIn Easy Apply + DM hiring leads</li>
+                        <li>College placement portal (if any)</li>
+                    </ul>
+                    <p><strong>Application Tracking:</strong></p>
+                    <p>Keep a checklist using a simple Google Sheet:</p>
+                    <div class="progress-tracking">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Company</th>
+                                    <th>Role</th>
+                                    <th>Applied on</th>
+                                    <th>Response</th>
+                                    <th>Next Follow-up Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ABC Startups</td>
+                                    <td>Frontend Intern</td>
+                                    <td>10 Jul 2025</td>
+                                    <td>No Reply</td>
+                                    <td>17 Jul 2025</td>
+                                </tr>
+                                <tr>
+                                    <td>XYZ Technologies</td>
+                                    <td>React Intern</td>
+                                    <td>12 Jul 2025</td>
+                                    <td>Interview</td>
+                                    <td>15 Jul 2025</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p><strong>Cold DM Template (LinkedIn):</strong></p>
+                    <p>Hi [Name], I'm [Your Name], a 2nd year BTech student passionate about React JS. I've built [Project 1] and [Project 2] (GitHub: [link]). I'd love to contribute as a Frontend Intern at [Company]. Are you open to a quick chat? Thanks!</p>
+
+                    <h4>Hackathons (Optional but High-Leverage)</h4>
+                    <p><strong>Platforms to Watch:</strong></p>
+                    <ul>
+                        <li>Devfolio → "Hackathon Seeker"</li>
+                        <li>Unstop (Devfolio events)</li>
+                        <li>Major college/university hackathons (IITs, NITs, VIT)</li>
+                    </ul>
+                    <p><strong>Why Hackathons?</strong></p>
+                    <ul>
+                        <li>Quick sprint of product-thinking + teamwork</li>
+                        <li>Win cash/prizes → proof to show on LinkedIn/GitHub</li>
+                    </ul>
+                    <p><strong>Action Steps:</strong></p>
+                    <ol>
+                        <li>Sign up on Devfolio + subscribe to event newsletters</li>
+                        <li>Team up with 2–3 friends (preferably one designer, one backend-leaning peer)</li>
+                        <li>Pick a problem you care about (e.g., campus safety, mental health)</li>
+                        <li>Ship an MVP in 24–48 hrs; share it on GitHub + LinkedIn</li>
+                    </ol>
+
+                    <h4>Content Routine (Twice a Month)</h4>
+                    <p><strong>Why?</strong> Builds your personal brand, forces you to articulate what you learn.</p>
+                    <p><strong>What to Post:</strong></p>
+                    <ul>
+                        <li>"This's how I solved 10 tree-related Leetcode problems"</li>
+                        <li>"Here's what I learned building my React weather dashboard"</li>
+                    </ul>
+                    <p><strong>Where:</strong></p>
+                    <ul>
+                        <li>LinkedIn: Longer format, 200–300 words</li>
+                        <li>Twitter: Threads: 5–7 tweets</li>
+                    </ul>
+                    <p class="pro-tip">
+                        <strong>Pro Tip:</strong> Use Canva to make a simple image summarizing a key concept (e.g., "Tree traversal in 3 lines of code").
+                    </p>
+                </section>
+            </section>
+
+            <section id="checklist-timeline">
+                <h2>3. <span class="emoji">📅</span> Checklist & Timeline (Next 4–6 Months)</h2>
+                <div class="timeline">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Week</th>
+                                <th>Focus</th>
+                                <th>Deliverable</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Week">1–2</td>
+                                <td data-label="Focus">React Core + Small Project #1</td>
+                                <td data-label="Deliverable">Basic React app (e.g., Todo List) on Netlify</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Week">3–4</td>
+                                <td data-label="Focus">Striver Arrays + Striver Sheet</td>
+                                <td data-label="Deliverable">20 array problems solved, update DSA tracker</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Week">5–6</td>
+                                <td data-label="Focus">React Project #2 (API + State)</td>
+                                <td data-label="Deliverable">Weather Dashboard with API fetch, hosted on Vercel</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Week">7–8</td>
+                                <td data-label="Focus">Striver Strings + Linked Lists</td>
+                                <td data-label="Deliverable">20 string + 15 list problems solved</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Week">9–10</td>
+                                <td data-label="Focus">Hackathon Sign-up + Team Setup</td>
+                                <td data-label="Deliverable">Register for 1 hackathon, basic idea + outline ready</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Week">11–12</td>
+                                <td data-label="Focus">Trees + Project #3 (Complexity)</td>
+                                <td data-label="Deliverable">25 tree problems solved + React ChatGPT-style mini-app deployed</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Week">13–14</td>
+                                <td data-label="Focus">Portfolio + LinkedIn Ramp-Up</td>
+                                <td data-label="Deliverable">GitHub portfolio URL live; 4 LinkedIn posts about your journey</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Week">15–16</td>
+                                <td data-label="Focus">Internship Applications Begin</td>
+                                <td data-label="Deliverable">Apply to 10 companies; track in sheet; send 10–15 cold DMs</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="resource-links">
+                <h2>4. <span class="emoji">🔗</span> Resource Links</h2>
+                <h3>DSA Resources:</h3>
+                <ul>
+                    <li>Striver's A2Z DSA YouTube Playlist: <a href="https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw">https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw</a></li>
+                    <li>Striver's A2Z DSA Sheet: <a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2">https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2</a></li>
+                </ul>
+                <h3>React Development Resources:</h3>
+                <ul>
+                    <li>Web Dev Simplified (React): <a href="https://www.youtube.com/@WebDevSimplified/search?query=React">https://www.youtube.com/@WebDevSimplified/search?query=React</a></li>
+                    <li>Hitesh Choudhary (React Crash Course): <a href="https://www.youtube.com/@HiteshChoudhary/search?query=React%20Crash%20Course">https://www.youtube.com/@HiteshChoudhary/search?query=React%20Crash%20Course</a></li>
+                    <li>Chai aur Code (React Projects): <a href="https://www.youtube.com/@ChaiAurCode/search?query=React%20Projects">https://www.youtube.com/@ChaiAurCode/search?query=React%20Projects</a></li>
+                </ul>
+                <h3>Hackathons & Opportunities:</h3>
+                <ul>
+                    <li>Devfolio (Hackathon Signup): <a href="https://devfolio.co/hackathons">https://devfolio.co/hackathons</a></li>
+                    <li>Unstop (Competitions): <a href="https://unstop.com/competitions?competition_type=hackathon">https://unstop.com/competitions?competition_type=hackathon</a></li>
+                </ul>
+                <h3>Internship Platforms:</h3>
+                <ul>
+                    <li>Internshala (Frontend Internships): <a href="https://internshala.com/internships/frontend-developer-internships">https://internshala.com/internships/frontend-developer-internships</a></li>
+                </ul>
+            </section>
+
+            <section class="summary-section">
+                <h2><span class="emoji">✅</span> Summary</h2>
+                <ul>
+                    <li><span class="emoji">🚀</span> <strong>React Mastery</strong><br>Finish 1–2 projects, deploy them</li>
+                    <li><span class="emoji">🧩</span> <strong>DSA (Up to Trees)</strong><br>150–200 problems via Striver's sheet/videos</li>
+                    <li><span class="emoji">💼</span> <strong>Portfolio + Proof</strong><br>GitHub, LinkedIn, small content cadence</li>
+                    <li><span class="emoji">🎯</span> <strong>Internships + Hackathons</strong><br>Apply, track, and participate</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <section id="final-words">
+                <h2><span class="emoji">🎓</span> Final Words</h2>
+                <p>Once this roadmap is completed, you'll be ready to step into 3rd year with a strong foundation—projects to show, DSA confidence, and an internship on your resume. The key is consistency and smart execution, not perfection.</p>
+                <p class="note">Remember: Progress over perfection. Start today, stay consistent, and track your journey!</p>
+            </section>
+            <p class="footer">Generated by Manish Gupta | Your 2nd Year Comeback Starts Now! <span class="emoji">🚀</span></p>
+        </footer>
+    </div>
+
+     <!--------Add Footer-->
+  <div id="navbar-placeholder"></div>
+  <script>
+  fetch('navbar.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('navbar-placeholder').innerHTML = data;
+    });
+
+  fetch('footer.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    });
+</script>
+
+
+</body>
+</html>
