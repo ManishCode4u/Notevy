@@ -9,6 +9,7 @@
     box-shadow: 0 2px 8px rgb(20 24 52 / 0.5);
     gap: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
   }
 
   .navbar-left {
@@ -41,6 +42,7 @@
     font-size: 1rem;
     margin: 0;
     padding: 0;
+    transition: max-height 0.3s ease;
   }
 
   .nav-links li a {
@@ -66,22 +68,47 @@
     outline: none;
   }
 
+  /* Hamburger Button */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+  }
+
   @media (max-width: 768px) {
-    .navbar {
-      flex-wrap: wrap;
+    .menu-toggle {
+      display: flex;
     }
     .nav-links {
+      flex-direction: column;
       width: 100%;
-      justify-content: center;
-      gap: 1.2rem;
-      margin-top: 0.5rem;
-      font-size: 0.95rem;
+      max-height: 0;
+      overflow: hidden;
+      background-color: #0f1424;
+      padding: 0;
+    }
+    .nav-links.show {
+      max-height: 500px;
+      padding: 0.5rem 0;
+    }
+    .nav-links li {
+      text-align: center;
+      padding: 0.5rem 0;
     }
     .search-box {
       width: 100%;
       margin-top: 0.5rem;
       display: flex;
       justify-content: center;
+      order: 3;
     }
     .search-box input {
       width: 90%;
@@ -97,6 +124,13 @@
       alt="Notevy logo"
     />
     <div class="logo-text">Notevy</div>
+  </div>
+
+  <!-- Hamburger Button -->
+  <div class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')">
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
 
   <ul class="nav-links" role="menubar" aria-label="Primary">
