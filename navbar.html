@@ -5,9 +5,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: #0f1424;
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 1rem;
     box-shadow: 0 2px 8px rgb(20 24 52 / 0.5);
-    gap: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
   }
@@ -61,6 +60,7 @@
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    margin-left: auto; /* Always push to right */
   }
 
   .menu-toggle span {
@@ -75,6 +75,10 @@
       display: flex;
     }
     .nav-links {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
       flex-direction: column;
       width: 100%;
       max-height: 0;
@@ -103,13 +107,6 @@
     <div class="logo-text">Notevy</div>
   </div>
 
-  <!-- Hamburger Button -->
-  <div class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-
   <ul class="nav-links" role="menubar" aria-label="Primary">
     <li role="menuitem"><a href="index.html">Home</a></li>
     <li role="menuitem"><a href="Notes.html">Notes</a></li>
@@ -118,5 +115,12 @@
     <li role="menuitem"><a href="tutorial.html">Tutorials</a></li>
     <li role="menuitem"><a href="contact.html">Contact</a></li>
   </ul>
+
+  <!-- Hamburger Button -->
+  <div class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 </nav>
 <!-- Navbar End -->
