@@ -70,10 +70,37 @@
       box-shadow: 0 0 5px rgba(0,0,0,0.2), inset 0 0 8px #2e3b60;
     }
 
-    @media (max-width: 720px) {
+    /* Responsive Styles */
+    @media (max-width: 900px) {
       .container {
         flex-direction: column;
         padding: 1.5rem;
+        gap: 2rem;
+        align-items: center;
+      }
+      .info {
+        max-width: 100%;
+        text-align: center;
+      }
+      .info img {
+        margin: 0 auto;
+        max-width: 200px;
+        height: auto;
+      }
+      iframe {
+        width: 100%;
+        min-height: 70vh;
+      }
+      .form-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 500px) {
+      iframe {
+        min-height: 60vh;
       }
     }
   </style>
