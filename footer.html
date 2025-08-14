@@ -18,8 +18,8 @@
   }
 
   .footer-col {
-    flex: 1 1 150px;
-    min-width: 150px;
+    flex: 1 1 200px;
+    min-width: 180px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -80,6 +80,7 @@
   .social-icons {
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
   }
 
   .social-icon {
@@ -113,15 +114,32 @@
     color: #556077;
   }
 
+  /* Responsive Styles */
   @media (max-width: 767px) {
     .footer-main {
       flex-direction: column;
       gap: 30px;
+      text-align: center;
+      align-items: center;
     }
+
+    .footer-col {
+      align-items: center;
+    }
+
+    .footer-desc {
+      max-width: 100%;
+    }
+
+    .social-icons {
+      justify-content: center;
+    }
+
     .footer-bottom {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
       gap: 8px;
+      text-align: center;
     }
   }
 </style>
@@ -155,19 +173,18 @@
     </div>
     <div class="footer-col">
       <h3>Connect With Us</h3>
-     <div class="social-icons">
-  <a href="https://www.facebook.com/profile.php?id=61556800303075" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
-  <a href="https://x.com/ManishK58727901" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
-  <a href="https://www.instagram.com/manishz40/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
-    </div>
-
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61556800303075" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/ManishK58727901" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/manishz40/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
   </div>
   <div class="footer-bottom">
     <div>© 2023 Notevy. All rights reserved.</div>
     <div>
       <a href="Privacy.html">Privacy Policy</a> | 
-      <a href="#">Terms</a>
+      <a href="Privacy.html">Terms</a>
     </div>
   </div>
 </div>
