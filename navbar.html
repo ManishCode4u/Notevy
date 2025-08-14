@@ -9,6 +9,7 @@
     box-shadow: 0 2px 8px rgb(20 24 52 / 0.5);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
+    z-index: 10000; /* Ensure navbar is above content */
   }
 
   .navbar-left {
@@ -85,6 +86,7 @@
       overflow: hidden;
       background-color: #0f1424;
       padding: 0;
+      z-index: 9999; /* Keep menu above content */
     }
     .nav-links.show {
       max-height: 500px;
